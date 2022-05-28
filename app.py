@@ -9,7 +9,7 @@ CORS(app)
 @cross_origin()
 def index():
     return {
-        "tutorial": "Flask ReacHero"
+        "tutorial": "Flask Reac Hero"
     }
 
 @app.route('/')
