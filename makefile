@@ -14,7 +14,7 @@ install:
 test:
 	@(\
 	source venv/Scripts/activate&&\
-	flask run\
+	python app.py\
 	)
 test2:
 	@(\
