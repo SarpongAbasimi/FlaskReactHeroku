@@ -7,9 +7,13 @@ CORS(app)
 
 @app.route('/api', methods=['GET'])
 @cross_origin()
+def random_number():
+    return{
+        "tutorial": "Dray is a simple API that returns a random number"
+    }
 def index():
     return {
-        "tutorial": "Dray is STUPID"
+        random_number()
     }
 
 @app.route('/')
