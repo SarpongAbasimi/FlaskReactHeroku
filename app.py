@@ -9,7 +9,7 @@ CORS(app)
 @cross_origin()
 def index():
     return {
-        "tutorial": "Flask React Heroku"
+        "tutorial": "Dray is STUPID"
     }
 
 @app.route('/')
